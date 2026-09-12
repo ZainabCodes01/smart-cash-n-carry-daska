@@ -1,0 +1,6 @@
+{
+  "name": "Smart Cash & Carry Daska",
+  "description": "Official mobile shopping app for Smart Cash & Carry Daska Branch, Pakistan. Order groceries, fresh meat, household essentials and more with fast home delivery in Daska.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
