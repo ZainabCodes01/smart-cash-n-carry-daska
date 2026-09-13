@@ -17,7 +17,7 @@ export const ContactScreen: React.FC = () => {
   const { storeSettings, language, navigateTo } = useApp();
 
   const googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
-    '89M5+HFH, College Rd, Jalalpur Ghumman, Daska, Pakistan'
+    '89M5+HFH, College Rd, Near ELC, Daska, Pakistan'
   )}`;
 
   const whatsappUrl = `https://wa.me/${storeSettings.whatsapp.replace('+', '')}?text=${encodeURIComponent(

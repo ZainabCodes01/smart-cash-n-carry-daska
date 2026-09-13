@@ -57,7 +57,7 @@ const SAMPLE_INITIAL_ORDERS: Order[] = [
   {
     id: 'SCC-4821',
     createdAt: new Date(Date.now() - 1000 * 60 * 45).toISOString(), // 45 mins ago
-    customerName: 'Muhammad Usman',
+    customerName: 'Sajid Hameed',
     customerPhone: '0320-8488888',
     deliveryAddress: INITIAL_USER_ADDRESS,
     deliveryInstructions: 'Please call on arrival, house is near Degree College.',
@@ -124,7 +124,7 @@ const SAMPLE_INITIAL_ORDERS: Order[] = [
   {
     id: 'SCC-3904',
     createdAt: new Date(Date.now() - 1000 * 60 * 60 * 26).toISOString(), // yesterday
-    customerName: 'Muhammad Usman',
+    customerName: 'Sajid Hameed',
     customerPhone: '0320-8488888',
     deliveryAddress: INITIAL_USER_ADDRESS,
     paymentMethod: 'Cash on Delivery',
@@ -327,7 +327,7 @@ export const storageService = {
   getUserProfile(): UserProfile {
     return safeGet<UserProfile>(STORAGE_KEYS.USER, {
       id: 'usr-1',
-      name: 'Muhammad Usman',
+      name: 'Sajid Hameed',
       phone: '0320-8488888',
       email: 'usman.daska@gmail.com',
       addresses: [INITIAL_USER_ADDRESS],

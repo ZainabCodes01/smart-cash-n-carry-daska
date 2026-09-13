@@ -30,7 +30,7 @@ export const CheckoutScreen: React.FC = () => {
   } = useApp();
 
   // Form states initialized from user address & profile
-  const [fullName, setFullName] = useState(userProfile.name || 'Muhammad Usman');
+  const [fullName, setFullName] = useState(userProfile.name || 'Sajid Hameed');
   const [phone, setPhone] = useState(userProfile.phone || '0320-8488888');
   const [streetAddress, setStreetAddress] = useState(
     selectedAddress.streetAddress || 'House # 42, St # 3, Near Jamia Masjid'
@@ -140,7 +140,7 @@ export const CheckoutScreen: React.FC = () => {
                 type="text"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
-                placeholder="e.g. Muhammad Usman"
+                placeholder="e.g. Sajid Hameed"
                 className="w-full text-xs font-semibold px-3.5 py-2.5 bg-slate-50 border border-slate-200 rounded-xl focus:bg-white focus:border-[#004B93] outline-hidden"
                 required
               />

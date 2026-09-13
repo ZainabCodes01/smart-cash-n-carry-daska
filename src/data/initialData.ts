@@ -768,7 +768,7 @@ export const INITIAL_STORE_SETTINGS: StoreSettings = {
   logoUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCRjMsevB6dpoFvLzpwaneNENISU4jy8KdLsdpiVlnW1Q43Y9DsOf576Q&s=10',
   phone: '+92 320 8488888',
   whatsapp: '+923208488888',
-  address: '89M5+HFH, College Rd, Jalalpur Ghumman, Daska, Pakistan',
+  address: '89M5+HFH, College Rd, Near ELC, Daska, Pakistan',
   addressUrdu: 'کالج روڈ، جلال پور گھمن، ڈسکہ، پاکستان',
   openingTime: '08:30 AM',
   closingTime: '11:00 PM',
@@ -783,7 +783,7 @@ export const INITIAL_STORE_SETTINGS: StoreSettings = {
 export const INITIAL_USER_ADDRESS: Address = {
   id: 'addr-1',
   label: 'Home',
-  receiverName: 'Muhammad Usman',
+  receiverName: 'Sajid Hameed',
   phone: '0320-8488888',
   streetAddress: 'House # 42, St # 3, Near Jamia Masjid',
   area: 'College Road',
